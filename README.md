@@ -21,7 +21,7 @@ We begin by cloning the repository and creating our develop branch.  We then use
 Under "Source Packages" you will see an "addandsubtract" package.  Within this package you will find the file AddAndSubtract.java.  We will take some time in class to discuss the following:
 * The use of command line arguments in the program's main method
 * The conversion of command line arguments from string values to integer values
-* The use of the keyword "static" in the sumIntegers helper method
+* The use of the keyword "static" in the addIntegers helper method
 * The use of System.out.println to output text to the console
 
 If you try running the project as-is, you will get an ArrayIndexOutOfBounds exception.  This is because we have not specified any command line arguments to pass into our program.  Under the "Run" menu, select "Set Project Configuration" -> "Customize...".  In the "Arguments" field, enter 2 numbers separated by a space (i.e. 2 3) and click OK.  Rerun the project and you should now see output like the following:
