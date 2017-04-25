@@ -45,9 +45,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
 
 Now that we have taken a tour of the project, you'll notice that AddAndSubtract does not actually subtract.  Update the project as follows:
 * In AddAndSubtract.java:
- * add another static method called subtractIntegers that takes 2 integers and returns number1 - number2
- * add an additional println to the main method that outputs the difference between the 2 arguments
+  * add another static method called subtractIntegers that takes 2 integers and returns number1 - number2
+  * add an additional println to the main method that outputs the difference between the 2 arguments
 * In AddAndSubtractTest.java:
- * add another test call testSubtractIntegers that validates the subtractIntegers method works as intended
+  * add another test call testSubtractIntegers that validates the subtractIntegers method works as intended
 
 Once you have verified that all your tests pass and your program prints what you expect, use the Github application to commit your updated files to your develop branch and create a pull request for this assignment.
